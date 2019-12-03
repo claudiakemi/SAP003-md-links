@@ -7,9 +7,6 @@
     "parserOptions": {
       "ecmaVersion": 6
     },
-    "globals": {
-      "cipher": false
-    },
     "rules": {
       "indent": ["error", 2],
       "semi": ["error", "always"],

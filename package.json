@@ -4,7 +4,9 @@
   "description": "projeto md-links",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "pretest": "npm run eslint",
+    "test": "jest --coverage",
+    "eslint": "eslint --ext .js lib/ --fix"
   },
   "repository": {
     "type": "git",
