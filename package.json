@@ -2,7 +2,7 @@
   "name": "md-links",
   "version": "1.0.0",
   "description": "projeto md-links",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "jest --coverage"
   },

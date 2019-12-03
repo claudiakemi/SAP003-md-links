@@ -3,5 +3,5 @@
 const mdLinks = require('./lib/index.js');
 const path = process.argv[2];
 mdLinks(path)
-  .then((result) => console.log(result))
+  .then((secondArray) => console.log(secondArray))
   .catch((error) => console.log(error))
